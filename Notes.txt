@@ -1,0 +1,71 @@
+Git is a version control system.
+Git helps you keep track of code changes and who made it.
+Git is used to collaborate on code.
+
+A README.md file that describes the repository
+
+What does Git do?
+  Manage projects with Repositories
+  Clone a project to work on a local copy
+  Control and track changes with Staging and Committing
+  Branch and Merge to allow for work on different parts and versions of a project
+  Pull the latest version of the project to a local copy
+  Push local updates to the main project
+
+Working with Git
+  Initialize Git on a folder, making it a Repository
+  Git now creates a hidden folder to keep track of changes in that folder
+  When a file is changed, added or deleted, it is considered modified
+  You select the modified files you want to Stage
+  The Staged files are Committed, which prompts Git to store a permanent snapshot of the files
+  Git allows you to see the full history of every commit.
+  You can revert back to any previous commit.
+  Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
+  
+ What is GitHub?
+  GitHub is the largest host of source code in the world, and has been owned by Microsoft since 2018.
+
+Check which version of Git:
+$ git --version
+
+Configure Git:
+  If you want to set the username/e-mail for just the current repo, you can remove global
+  Now let Git know who you are. This is important for version control systems, as each Git commit uses this information:
+$ git config --global user.name "anuragbhu"
+$ git config --global user.email "test@anurag.com"
+
+$ mkdir myproject
+$ cd myproject
+
+Initialize Git:
+  Git creates a hidden folder to keep track of changes.
+  Once you have navigated to the correct folder, you can initialize Git (Initialized empty Git repository) on that folder:
+$ git init
+
+ls will list the files in the directory:
+$ ls
+
+Check the Git status and see if it is a part of our repo:
+$ git status
+
+Git Staging Environment:
+  Staged files are files that are ready to be committed to the repository you are working on.
+$ git add test.html
+$ git add --all
+
+Git Commit:
+  Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
+  When we commit, we should always include a message.
+$ git commit -m "First release of Hello World!"
+
+Git Commit Log:
+  To view the history of commits for a repository, you can use the log command:
+$ git log
+
+Git Help:
+  See all the available options for the specific command:
+$ git command -help
+$ git commit -help
+  See all possible commands:
+$ git help --all
+

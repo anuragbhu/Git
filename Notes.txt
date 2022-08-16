@@ -99,3 +99,11 @@ Merge Conflict:
   This confirms there is a conflict in test.html, but the other files are ready and staged to be committed. So we need to fix that conflict.
    Open the file in the editor and see the differences between the versions and edit it like you want.
    Now merge and delete the branch.
+   
+Push Local Repository to GitHub:
+  Since we have already set up a local Git repo, we are going to push that to GitHub:
+$ git remote add origin https://github.com/anuragbhu/Test_Check.git
+
+  git remote add origin URL specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
+  Now we are going to push our master branch to the origin url, and set it as the default remote branch:
+$ git push -u origin master

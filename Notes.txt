@@ -69,3 +69,33 @@ $ git commit -help
   See all possible commands:
 $ git help --all
 
+New Git Branch:
+$ git branch hello-world-images
+
+The * beside branch name specifies that we are currently on that branch:
+$ git branch
+
+Checkout is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command:
+$ git checkout hello-world-images
+
+Emergency Branch (hypothetical):
+  Now imagine that we are not yet done with hello-world-images, but we need to fix an error on master.
+  I don't want to mess with master directly, and I do not want to mess with hello-world-images, since it is not done yet.
+  Using the -b option on checkout will create a new branch, and move to it, if it does not exist
+  So we create a new branch to deal with the emergency:
+$ git checkout -b emergency-fix
+
+Git Branch Merge:
+  We have the emergency fix ready, and so let's merge the master and emergency-fix branches.
+  First, we need to change to the master branch:
+$ git checkout master
+$ git merge emergency-fix
+
+As master and emergency-fix are essentially the same now, we can delete emergency-fix, as it is no longer needed:
+$ git branch -d emergency-fix
+
+Merge Conflict:
+  The merge failed, as there is conflict between the versions for test.html.
+  This confirms there is a conflict in test.html, but the other files are ready and staged to be committed. So we need to fix that conflict.
+   Open the file in the editor and see the differences between the versions and edit it like you want.
+   Now merge and delete the branch.

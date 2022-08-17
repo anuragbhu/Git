@@ -74,6 +74,8 @@ $ git branch hello-world-images
 
 The * beside branch name specifies that we are currently on that branch:
 $ git branch
+  use the -a option to see all local and remote branches:
+$ git branch -a
 
 Checkout is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command:
 $ git checkout hello-world-images
@@ -100,10 +102,24 @@ Merge Conflict:
    Open the file in the editor and see the differences between the versions and edit it like you want.
    Now merge and delete the branch.
    
-Push Local Repository to GitHub:
+Push Local Repository to GitHub (Git Push: Push Changes to GitHub):
   Since we have already set up a local Git repo, we are going to push that to GitHub:
 $ git remote add origin https://github.com/anuragbhu/Test_Check.git
 
   git remote add origin URL specifies that you are adding a remote repository, with the specified URL, as an origin to your local Git repo.
   Now we are going to push our master branch to the origin url, and set it as the default remote branch:
 $ git push -u origin master
+
+Git Pull: Pulling to Keep up-to-date with Changes
+  When working as a team on a project, it is important that everyone stays up to date.
+  Any time you start working on a project, you should get the most recent changes to your local copy.
+  pull is a combination of 2 different commands:
+    fetch
+    merge
+$ git pull origin
+
+Pulling a Branch from GitHub:
+$ git pull
+
+Push a Branch to GitHub:
+$ git push origin update-readme

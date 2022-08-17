@@ -123,3 +123,15 @@ $ git pull
 
 Push a Branch to GitHub:
 $ git push origin update-readme
+
+If the changes look good, you can go forward, creating a pull request:
+  A pull request is how you propose changes. You can ask some to review your changes or pull your contribution and merge it into their branch.
+  
+GitHub flow works like this:
+  Create a new Branch
+  Make changes and add Commits
+  Open a Pull Request
+  Review
+  Deploy
+  Merge
+  

@@ -193,5 +193,7 @@ Log all the directories and files in current directory
 $ dir
 
 Remove file
-del file_name.txt
+$ del file_name.extension
   
+Remove directory
+$ rmdir /s DirectoryName

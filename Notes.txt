@@ -135,3 +135,24 @@ GitHub flow works like this:
   Deploy
   Merge
   
+Git Contribution: Fork a Repository
+  Git does not allow you to add code to someone else's repository without access rights.
+  A fork is a copy of a repository. This is useful when you want to contribute to someone else's project or start your own project based on theirs.
+  fork is not a command in Git, but something offered in GitHub and other repository hosts.
+  
+Git Contribution: Clone a Fork from GitHub
+  Now we have our own fork, but only on GitHub. We also want a clone on our local Git to keep working on it.
+  A clone is a full copy of a repository, including all logging and versions of files.
+$ git clone https://github.com/abc-test/abc-test.github.io.git
+  
+  Navigate to the new directory, and configure remotes: Basically, we have a full copy of a repository, whose origin we are not allowed to make changes to.
+  To check:
+$ git remote -v
+
+  According to Git naming conventions, it is recommended to name your own repository origin, and the one you forked for upstream.
+$ git remote rename origin upstream
+$ git remote add origin https://github.com/anuragbhu/abc-test.github.io.git
+
+  origin - our own fork, where we have read and write access
+  upstream - the original, where we have read-only access
+  

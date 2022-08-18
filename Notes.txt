@@ -49,6 +49,8 @@ $ git init
 
 ls will list the files in the directory:
 $ ls
+ls -a will list  all files including hidden files:
+$ ls -a
 
 Check the Git status and see if it is a part of our repo:
 $ git status

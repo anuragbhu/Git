@@ -40,6 +40,7 @@ $ git config --global user.name "anuragbhu"
 $ git config --global user.email "test@anurag.com"
 
 $ mkdir myproject
+$ mkdir .mysecrets
 $ cd myproject
 
 Initialize Git:
@@ -68,6 +69,7 @@ $ git commit -m "First release of Hello World!"
 Git Commit Log:
   To view the history of commits for a repository, you can use the log command:
 $ git log
+$ git log --oneline
 
 Git Help:
   See all the available options for the specific command:

@@ -177,6 +177,11 @@ Git Ignore and .gitignore
   Git will not track files and folders specified in .gitignore. However, the .gitignore file itself IS tracked by Git.
 $ touch .gitignore
   
+  For other files
+$ touch text.txt
+
+  To open any file from cmd: locate to the directory and type file_name.extension
+  
   File content:
   # ignore ALL .log files
   *.log

@@ -43,6 +43,9 @@ $ mkdir myproject
 $ mkdir .mysecrets
 $ cd myproject
 
+Go to root directory
+$ cd \
+
 Initialize Git:
   Git creates a hidden folder to keep track of changes.
   Once you have navigated to the correct folder, you can initialize Git (Initialized empty Git repository) on that folder:

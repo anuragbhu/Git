@@ -175,10 +175,10 @@ Git Ignore and .gitignore
   Examples: log files, temporary files, hidden files, personal files etc.
   single .gitignore which applies to the entire repository.
   Git will not track files and folders specified in .gitignore. However, the .gitignore file itself IS tracked by Git.
-$ touch .gitignore
+$ type nul > .gitignore
   
   For other files
-$ touch text.txt
+$ type nul > test.txt
 
   To open any file from cmd: locate to the directory and type file_name.extension
   
@@ -189,5 +189,9 @@ $ touch text.txt
   # ignore ALL files in ANY directory named temp
   temp/
   
+Log all the directories and files in current directory
+$ dir
 
+Remove file
+del file_name.txt
   

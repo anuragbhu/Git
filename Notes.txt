@@ -158,3 +158,19 @@ $ git remote add origin https://github.com/anuragbhu/abc-test.github.io.git
   
   Now, push the changes to your own repository and send a Pull Request to the original repository
   
+Git Ignore and .gitignore
+  When sharing your code with others, there are often files or parts of your project, you do not want to share.
+  Examples: log files, temporary files, hidden files, personal files etc.
+  single .gitignore which applies to the entire repository.
+  Git will not track files and folders specified in .gitignore. However, the .gitignore file itself IS tracked by Git.
+$ touch .gitignore
+  
+  File content:
+  # ignore ALL .log files
+  *.log
+
+  # ignore ALL files in ANY directory named temp
+  temp/
+  
+
+  

@@ -156,3 +156,5 @@ $ git remote add origin https://github.com/anuragbhu/abc-test.github.io.git
   origin - our own fork, where we have read and write access
   upstream - the original, where we have read-only access
   
+  Now, push the changes to your own repository and send a Pull Request to the original repository
+  

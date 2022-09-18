@@ -55,9 +55,6 @@ Initialize Git:
   Once you have navigated to the correct folder, you can initialize Git (Initialized empty Git repository) on that folder:
 $ git init
 
-ls will list the files in the directory:
-$ dir
-
 Check the Git status and see if it is a part of our repo:
 $ git status
 

@@ -47,6 +47,9 @@ $ cd myproject
 Go to root directory
 $ cd \
 
+Clear
+$ cls
+
 Initialize Git:
   Git creates a hidden folder to keep track of changes.
   Once you have navigated to the correct folder, you can initialize Git (Initialized empty Git repository) on that folder:
@@ -62,6 +65,7 @@ Git Staging Environment:
   Staged files are files that are ready to be committed to the repository you are working on.
 $ git add test.html
 $ git add --all
+$ git add .
 
 Git Commit:
   Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.

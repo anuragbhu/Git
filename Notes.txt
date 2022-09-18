@@ -2,12 +2,13 @@ GIT
   Git is a version control system.
   Git helps you keep track of code changes and who made it.
   Git is used to collaborate on code.
+  Git is open source.
 
 SVN
   Apache Subversion is a software versioning and revision control system distributed as open source under the Apache License. Software developers use Subversion to   maintain current and historical versions of files such as source code, web pages, and documentation.
   TortoiseSVN is an Apache Subversion (SVN) client, implemented as a Windows shell extension.
 
-A README.md file that describes the repository
+A README.md file that describes the repository (md: markdown documentation)
 
 What does Git do?
   Manage projects with Repositories

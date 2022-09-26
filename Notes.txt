@@ -156,6 +156,9 @@ Git Contribution: Clone a Fork from GitHub
   Now we have our own fork, but only on GitHub. We also want a clone on our local Git to keep working on it.
   A clone is a full copy of a repository, including all logging and versions of files.
 $ git clone https://github.com/abc-test/abc-test.github.io.git
+
+Clone A Private Repository (Github)
+git clone https://your-username@github.com/private-repo-username/repo_name
   
   Navigate to the new directory, and configure remotes: Basically, we have a full copy of a repository, whose origin we are not allowed to make changes to.
   To check:

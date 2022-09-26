@@ -158,7 +158,7 @@ Git Contribution: Clone a Fork from GitHub
 $ git clone https://github.com/abc-test/abc-test.github.io.git
 
 Clone A Private Repository (Github)
-git clone https://your-username@github.com/private-repo-username/repo_name
+git clone https://your-username@github.com/private-repo-username/repo_name.git
   
   Navigate to the new directory, and configure remotes: Basically, we have a full copy of a repository, whose origin we are not allowed to make changes to.
   To check:

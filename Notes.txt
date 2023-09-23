@@ -202,3 +202,7 @@ $ del file_name.extension
   
 Remove directory
 $ rmdir /s DirectoryName
+
+Undo a commit (not pushed to remote repository)
+$ git reset HEAD~
+git reset is the command responsible for the undo. It will undo your last commit while leaving your working tree (the state of your files on disk) untouched. You'll need to add them again before you can commit them again.
